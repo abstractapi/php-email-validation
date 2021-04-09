@@ -1,0 +1,25 @@
+name: Unit test
+
+on: [push, pull_request]
+
+jobs:
+  unit_test:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ ubuntu-18.04, windows-2019 ]
+        php: [ '5.4', '5.5', '5.6', '7.1', '7.2', '7.3', '7.4', '7.3.3' ]
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Setup PHP
+        uses: nanasess/setup-php@master
+        with:
+          php-version: ${{ matrix.php }}
+
+      - name: Run test
+        run: |
+          composer self-update
+          composer install --prefer-source --no-interaction --ignore-platform-reqs
+          php vendor/bin/phpunit
