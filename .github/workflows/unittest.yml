@@ -10,6 +10,9 @@ jobs:
         operating-system: [ ubuntu-18.04, windows-2019 ]
         php: [ '7.1', '7.2', '7.3', '7.4', '7.3.3' ]
 
+    env:
+      EMAIL_VALIDATION_API_KEY: ${{ secrets.API_KEY }}
+
     steps:
       - uses: actions/checkout@master
 
@@ -22,5 +25,4 @@ jobs:
         run: |
           composer self-update
           composer install --prefer-source --no-interaction --ignore-platform-reqs
-          export EMAIL_VALIDATION_API_KEY=${{ secrets.API_KEY }}
           php vendor/bin/phpunit
