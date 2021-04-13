@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: [ ubuntu-18.04, windows-2019 ]
+        operating-system: [ ubuntu-18.04, windows-2016 ]
         php: [ '7.1', '7.2', '7.3', '7.4', '7.3.3' ]
 
     env:
