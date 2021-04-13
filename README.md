@@ -1,6 +1,5 @@
 # AbstractAPI php-email-validation library
 
-[![Build Status](https://travis-ci.com/abstractapi/php-email-validation.png?branch=main)](https://travis-ci.com/abstractapi/php-email-validation)
 [![Packagist](https://img.shields.io/packagist/v/abstractapi/php-email-validation.svg)](https://packagist.org/packages/abstractapi/php-email-validation)
 [![Packagist](https://img.shields.io/packagist/dt/abstractapi/php-email-validation.svg)](https://packagist.org/packages/abstractapi/php-email-validation)
 
