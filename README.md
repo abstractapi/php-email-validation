@@ -1,8 +1,5 @@
 # AbstractAPI php-email-validation library
 
-[![Packagist](https://img.shields.io/packagist/v/abstractapi/php-email-validation.svg)](https://packagist.org/packages/abstractapi/php-email-validation)
-[![Packagist](https://img.shields.io/packagist/dt/abstractapi/php-email-validation.svg)](https://packagist.org/packages/abstractapi/php-email-validation)
-
 Integrate the powerful [email validation API from Abstract](https://www.abstractapi.com/email-verification-validation-api) in your PHP project in a few lines of code.
 
 Abstract's Email Validation and Verification API is a fast, lightweight, modern, and RESTful JSON API for determining the validity and other details of email addresses.
