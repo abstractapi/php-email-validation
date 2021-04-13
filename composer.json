@@ -3,7 +3,7 @@
     "description": "AbstractEmailValidation - Wrapper to quickly start using the powerful AbstractAPI's email validation service in your projects.",
     "version": "0.1.0",
     "type": "library",
-    "keywords": ["php", "api", "abstract", "abstractapi", "email", "emailvalidation", "email validation", "email verification", "wrapper", "library"],
+    "keywords": ["abstract", "abstractapi", "api", "email", "email validation", "email verification", "email-api", "email-api-php", "email-registration", "email-validation", "email-validation-input", "email-validation-plugin", "email-verification", "email-verifier", "emailvalidation", "free", "library", "php", "php-library", "validation-library", "wrapper"],
     "homepage": "https://github.com/abstractapi/php-email-validation",
     "readme": "README.md",
     "time": "2021-04-09",
