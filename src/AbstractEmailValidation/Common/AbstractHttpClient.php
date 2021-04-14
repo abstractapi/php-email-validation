@@ -16,7 +16,7 @@ class AbstractHttpClient
         Read before disabling:
         http://snippets.webaware.com.au/howto/stop-turning-off-curlopt_ssl_verifypeer-and-fix-your-php-config/
     */
-    public $verify_ssl = true;
+    public $verify_ssl = false;
     private $request_successful = false;
     private $last_error         = '';
     private $last_response      = array();
